@@ -7,3 +7,8 @@ def parrot(noise = "Squawk!")
 end
 
 parrot
+
+def parrot(phrase = "Squawk!")
+  puts phrase
+  return phrase
+end
